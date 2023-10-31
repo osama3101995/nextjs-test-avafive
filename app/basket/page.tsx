@@ -11,7 +11,7 @@ const BasketPage = () => {
   const items: CollapseProps["items"] = [
     {
       key: "1",
-      label: "This is panel header 1",
+      label: "Apply Coupon Code",
       children: (
         <div className=" voucherfield">
           <Space.Compact style={{ width: "100%" }}>
@@ -71,8 +71,8 @@ const BasketPage = () => {
           </div>
         </section>
       </section>
-      <section className="w-full sm:w-1/2 max-sm:mt-5">
-        <Collapse defaultActiveKey={["1"]} ghost items={items} />
+      <section className="w-full sm:w-7/12 max-sm:mt-5">
+        <Collapse expandIconPosition="right" defaultActiveKey={["1"]} ghost items={items} />
       </section>
     </section>
   );
