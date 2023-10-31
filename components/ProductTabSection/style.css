@@ -1,0 +1,38 @@
+.productTabSection .ant-tabs-nav {
+    @apply bg-[#F1F1F1] rounded-lg before:border-none p-2
+    
+}
+
+.productTabSection .ant-tabs-nav-wrap {
+    @apply md:ml-5;
+}
+
+.productTabSection .ant-tabs-tab {
+    @apply  px-5 py-[6px] rounded-lg ;
+    @apply max-md:ml-0 !important;
+}
+
+.productTabSection .ant-tabs-nav-list .ant-tabs-tab:last-child {
+    @apply  max-md:mr-8 !important;
+}
+
+
+.productTabSection .ant-tabs-tab-btn {
+    @apply  text-[#626262] text-base font-medium !important
+}
+
+.productTabSection .ant-tabs-tab-active {
+    @apply  bg-[#1B4B66] 
+}
+
+.productTabSection .ant-tabs-tab-active .ant-tabs-tab-btn {
+    @apply  text-[#fff] !important
+}
+
+.productTabSection .ant-tabs-ink-bar {
+    @apply hidden;
+}
+
+.productTabSection .ant-tabs-tabpane {
+    @apply  text-base font-medium !important
+}

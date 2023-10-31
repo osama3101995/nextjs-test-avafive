@@ -1,0 +1,16 @@
+
+section {
+    @apply mt-5
+}
+
+.product-section .slick-thumb {
+    @apply bottom-[-7rem]
+}
+
+.slick-dots li {
+    @apply w-20 h-20 overflow-hidden
+}
+
+.voucherfield button {
+    @apply bg-[#F1F1F1] h-12 border-0 hover:bg-[#F1F1F1] !important;
+}

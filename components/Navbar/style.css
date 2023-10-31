@@ -1,0 +1,15 @@
+.links-left a {
+    @apply sm:mr-5;
+}
+
+.links-right a {
+    @apply sm:ml-5;
+}
+
+.searchInput {
+    @apply w-80 !important;
+}
+
+.searchInput .ant-input-prefix {
+    @apply mr-2 !important;
+}

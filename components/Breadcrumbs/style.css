@@ -1,0 +1,6 @@
+.breadcrumbs a {
+    @apply font-medium
+}
+.breadcrumbs img {
+    @apply  mx-2
+}

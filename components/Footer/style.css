@@ -1,0 +1,12 @@
+footer * {
+    @apply text-[#fff]
+}
+
+.links {
+    @apply  mt-3 flex flex-col;
+
+}
+.links a {
+    @apply  mb-2 text-[#B6B6B6];
+    
+}

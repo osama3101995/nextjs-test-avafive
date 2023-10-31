@@ -1,0 +1,7 @@
+.orderSummaryElements {
+    @apply flex justify-between mt-3
+}
+
+.basket-section .voucherfield button {
+    @apply bg-[#F1F1F1] rounded h-12 border-0 hover:bg-[#F1F1F1] !important ;
+}

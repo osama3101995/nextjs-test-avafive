@@ -1,0 +1,29 @@
+.cartTable .ant-table-cell {
+    @apply align-top;
+}
+
+.cartTable .ant-table-thead .ant-table-cell {
+    @apply bg-[#fff] text-[#626262] before:hidden font-medium
+}
+
+.cartTable .ant-table-row:nth-child(odd) td {
+
+    @apply border-none pb-0 mb-0;
+} 
+
+.cartTable .ant-table-row:nth-child(even) td {
+
+    @apply pt-0 mt-0;
+} 
+
+.cartTable a {
+    @apply text-[#1B4B66] underline underline-offset-4 font-semibold text-sm
+}
+
+.cartTable .ant-pagination li {
+    @apply  hover:border-[#1B4B66] border-[#1B4B66]
+}
+
+.cartTable .ant-pagination li a {
+    @apply  text-[#1B4B66] font-semibold text-sm hover:text-[#1B4B66]
+}
