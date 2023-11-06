@@ -4,7 +4,6 @@
 **Introduction**
 A NextJS Project that makes use of the following libraries:
 
-- ant-design/charts
 - ant-design/icons
 - react-slick
 - antd
